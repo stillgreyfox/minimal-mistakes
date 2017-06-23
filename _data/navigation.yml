@@ -1,12 +1,34 @@
 # main links
 main:
+  - title: "Design"
+    url: /design/
+
+  - title: "Machine Vision"
+    url: /machine-vision/
+
+  - title: "Industrial Controls"
+    url: /industrial-controls/
+
+  - title: "Embedded Systems"
+    url: /embedded-systems/
+
+  - title: "Backups and Data Recovery"
+    url: /backups-and-data-recovery/
+
+  - title: "Contact Us"
+    url: /contact-us/
+
+  - title: "Theme Layouts"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/layouts/
+
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+
+  - title: "Static Site on S3"
+    url: http://blog.mindthecloud.com/2014/08/31/create-your-static-blog-from-scratch-in-1-hour.html
+
+  - title: "S3_website"
+    url: https://github.com/laurilehmijoki/s3_website
+
+  - title: "Jekyll + S3_website"
+    url: https://chrisanthropic.github.io/slim-pickins-jekyll-theme//blog/2014/deploy-jekyll-to-s3-with-s3_website
