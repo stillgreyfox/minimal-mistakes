@@ -1,34 +1,84 @@
 # main links
 main:
-  - title: "Design"
-    url: /design/
-
-  - title: "Machine Vision"
-    url: /machine-vision/
-
-  - title: "Industrial Controls"
-    url: /industrial-controls/
-
-  - title: "Embedded Systems"
-    url: /embedded-systems/
-
-  - title: "Backups and Data Recovery"
-    url: /backups-and-data-recovery/
-
+  - title: "Services"
+    url: /
+  - title: "About"
+    url: /about
   - title: "Contact Us"
-    url: /contact-us/
+    url: /_pages/contact
 
-  - title: "Theme Layouts"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/layouts/
 
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+sidebar-sample:
+  - title: "Parent Page A"
+    children:
+      - title: "Child Page A1"
+        url: /
+      - title: "Child Page A2"
+        url: /
+      - title: "Child Page A3"
+        url: /
+      - title: "Child Page A4"
+        url: /
 
-  - title: "Static Site on S3"
-    url: http://blog.mindthecloud.com/2014/08/31/create-your-static-blog-from-scratch-in-1-hour.html
+  - title: "Parent Page B"
+    children:
+      - title: "Child Page B1"
+        url: /
+      - title: "Child Page B2"
+        url: /
+      - title: "Child Page B3"
+        url: /
+      - title: "Child Page B4"
+        url: /
+      - title: "Child Page B5"
+        url: /
 
-  - title: "S3_website"
-    url: https://github.com/laurilehmijoki/s3_website
+  - title: "Parent Page C"
+    children:
+      - title: "Child Page C1"
+        url: /
+      - title: "Child Page C2"
+        url: /
+      - title: "Child Page C3"
+        url: /
+      - title: "Child Page C4"
+        url: /
+      - title: "Child Page C5"
+        url: /
 
-  - title: "Jekyll + S3_website"
-    url: https://chrisanthropic.github.io/slim-pickins-jekyll-theme//blog/2014/deploy-jekyll-to-s3-with-s3_website
+  - title: "Parent Page D"
+    children:
+      - title: "Child Page D1"
+        url: /
+      - title: "Child Page D2"
+        url: /
+
+
+sidebar-site-project:
+  - title: "Pages"
+    children:
+      - title: "Design"
+        url: /design/
+      - title: "Machine Vision"
+        url: /machine-vision/
+      - title: "Industrial Controls"
+        url: /industrial-controls/
+      - title: "Embedded Systems"
+        url: /embedded-systems/
+      - title: "Backups and Data Recovery"
+        url: /backups-and-data-recovery/
+
+  - title: "Help with Site Development"
+    children:
+      - title: "Quick-Start Guide"
+        url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+      - title: "Theme Layouts"
+        url: https://mmistakes.github.io/minimal-mistakes/docs/layouts/
+      - title: "Font Awesome Icons"
+        url: http://fontawesome.io/icons/
+      - title: "Static Site on S3"
+        url: http://blog.mindthecloud.com/2014/08/31/create-your-static-blog-from-scratch-in-1-hour.html
+      - title: "S3_website"
+        url: https://github.com/laurilehmijoki/s3_website
+      - title: "Jekyll + S3_website"
+        url: https://chrisanthropic.github.io/slim-pickins-jekyll-theme//blog/2014/deploy-jekyll-to-s3-with-s3_website
