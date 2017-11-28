@@ -10,6 +10,7 @@ Based on learnings from here:
 
 ## Jekyll and Tools
     
+    sudo apt install ruby-dev
     sudo gem install bundler jekyll
     git clone git@github.com:s3tools/s3cmd.git
     s3cmd --configure
